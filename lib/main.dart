@@ -10,10 +10,13 @@ void main() { //Main funcation is strating point of all our appes
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Text(
-            "Hello World"
+          child: Image(
+            image: NetworkImage("https://www.inovex.de/blog/wp-content/uploads/2019/01/Flutter-1-1.png"),
           ),
         ),
+        // Image(
+        //   image: NetworkImage("https://www.inovex.de/blog/wp-content/uploads/2019/01/Flutter-1-1.png"),
+        // ),
 
       ),
     ),
