@@ -6,6 +6,7 @@ void main() { //Main funcation is strating point of all our appes
       home: Scaffold(
         appBar: AppBar(
           title: Text("I'm Rich"),
+          backgroundColor: Colors.blueGrey[900],
         ),
       ),
     ),
