@@ -12,35 +12,37 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           // this is the safe area view same as react-native
-          child: Column(
+          child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             // mainAxisSize: MainAxisSize.min,
             // verticalDirection: VerticalDirection.up,
             // verticalDirection: VerticalDirection.down, // default
-            // mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
             // mainAxisAlignment: MainAxisAlignment.end,
 
             children: [
               Container(
-                height: 100.0,
+                // height: 100.0,
                 width: 100.0,
                 child: Text('First'),
                 color: Colors.white,
               ),
               SizedBox(
-                height: 30.0,
+                // add space between
+                width: 30.0,
               ),
               Container(
-                height: 100.0,
+                // height: 100.0,
                 width: 100.0,
                 child: Text('Second'),
                 color: Colors.red,
               ),
               SizedBox(
-                height: 30.0,
+                width: 30.0,
+                // height: 30.0,
               ),
               Container(
-                height: 100.0,
+                // height: 100.0,
                 width: 100.0,
                 child: Text('Second'),
                 color: Colors.yellow,
